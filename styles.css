@@ -125,3 +125,42 @@ body {
   margin-top: 50px;
   line-height: 1.5;
 }
+/*FT Benefits Section*/
+
+#benefits-section {
+  height: 900px; 
+  text-align: center;
+}
+
+.benefits-text { 
+  display: inline-block;
+  text-align: left;
+}
+
+.benefits-text h1 { 
+  font-size: 45px;
+  padding-left: 100px;
+  padding-top: 100px;
+}
+.benefits-text span { 
+  color: #ADADAD;
+}
+
+.startup-logos {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 10px;
+  height: 300px;
+}
+
+.logo {
+  background-color: #F5F5F5;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  margin: 10px;
+}
+
+.test {
+  margin: 200px;
+}
