@@ -146,21 +146,60 @@ body {
   color: #ADADAD;
 }
 
-.startup-logos {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  padding: 10px;
-  height: 300px;
+/*Platform Connect Section*/
+#connect-section {
+  height: 1800px;
+  background-color:#FAFAFA;
 }
 
-.logo {
-  background-color: #F5F5F5;
-  padding: 20px;
-  font-size: 30px;
+.connect-content ul {
+  list-style-type: none;
+}
+
+.connect-content h1{ 
+  font-size: 45px;
   text-align: center;
-  margin: 10px;
+  padding-top: 8%;
 }
 
-.test {
-  margin: 200px;
+.connect-content ul {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 4%;
+  margin-left: 10%;
+  margin-right: 15%;
+}
+
+.logo-height img{
+  height: 60px;
+}
+
+.tweets { 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  margin-top: 4%;
+}
+
+
+.center-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.connect-btn {
+  background-color: #000000;
+  border: none;
+  border-radius: 50px;
+  height: 45px;
+  width: 155px;
+  margin-top: 18px;
+  text-align: center;
+}
+.connect-btn a {
+  color: #FFFFFF;
+  font-weight: bold;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-decoration: none;
 }
