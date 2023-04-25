@@ -213,6 +213,7 @@ body {
 
 
 .deal-content h1 {
+  margin-top: 0px;
   font-size: 45px;
   color: #FFFFFF;
   padding-top: 8%;
@@ -318,4 +319,30 @@ p span {
 
 #green-col {
   background-color: #A8FF35;
+}
+
+/*Join Now Section*/
+.join-content {
+  height: 450px;
+  background-color: #A8FF35;
+  text-align: center;
+}
+
+.join-content h1 {
+  margin-top: 0px;
+  padding-top: 150px;
+  font-size: 55px;
+}
+
+.join-content span {
+  color: #87D322;
+}
+
+.join-btn {
+  background-color: #000000;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 50px;
+  height: 45px;
+  width: 140px;
 }
