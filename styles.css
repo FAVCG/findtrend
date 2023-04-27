@@ -131,13 +131,13 @@ body {
   justify-content: center;
 }
 
-.button-container { 
-  position: relative; 
+.button-container {
+  position: relative;
   display: flex;
   align-items: center;
   height: 65px;
-  border: none; 
-  border-radius: none; 
+  border: none;
+  border-radius: none;
   background: black;
   color: white;
   padding: 9px 20px;
@@ -149,8 +149,8 @@ body {
   margin-right: 10px;
 }
 
-.fader { 
-  width: 65px; 
+.fader {
+  width: 65px;
   height: 65px;
   background: linear-gradient(270deg, #030303 53.65%, rgba(3, 3, 3, 0.6) 100%);
 
@@ -171,7 +171,7 @@ body {
 /*FT Benefits Section*/
 
 #benefits-section {
-  height: 900px;
+  height: 1300px;
   text-align: center;
 }
 
@@ -186,8 +186,38 @@ body {
   padding-top: 100px;
 }
 
+.text-padding {
+  padding-bottom: 120px;
+}
+
 .benefits-text span {
   color: #ADADAD;
+}
+
+.company-logos .row {
+  padding-left: 0px;
+  justify-content: center;
+}
+
+.company-logos ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.rectangle-background {
+  background-color: #F5F5F5;
+  margin-right: 20px;
+  width: 214px;
+}
+
+.rectangle-background img {
+  height: 30px;
+  padding: 30px;
+}
+
+#smaller-logo img {
+  height: 20px;
 }
 
 /*Platform Connect Section*/
@@ -222,7 +252,7 @@ body {
 }
 
 #green-square {
-  background-color:#A8FF35;
+  background-color: #A8FF35;
 }
 
 .logo-height img {
@@ -287,7 +317,8 @@ h3 {
 }
 
 h3 span {
-  color: #F5F5F5;
+  color: #8B8B8B;
+  ;
 }
 
 .btn-background {
@@ -313,17 +344,22 @@ h3 span {
 
 .row {
   display: flex;
-  margin: 40px;
   padding-left: 65px;
   justify-content: space-evenly;
+}
+
+#row-margin {
+  margin: 40px;
 }
 
 .column {
   width: 25%;
   padding: 20px;
-  height: 500px;
   border-radius: 15px;
   background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .column h2 {
@@ -363,6 +399,7 @@ p span {
   padding-left: 4px;
   line-height: 35px;
 }
+
 .btn-end {
   display: flex;
 }
