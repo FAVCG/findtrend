@@ -9,7 +9,6 @@ body {
   align-items: center; */
 }
 
-
 /*Navbar*/
 .navbar {
   max-width: 1440px;
@@ -318,20 +317,21 @@ body {
 /*Best Deal Section*/
 
 .best-deal-section {
-  height: 900px;
+  /*   height: 900px; */
   background-color: #000000;
 }
 
 .deal-content {
   max-width: 1440px;
   margin: 0 auto;
+  padding: 80px 0;
 }
 
 .deal-content h1 {
   margin-top: 0px;
   font-size: 45px;
   color: #FFFFFF;
-  padding-top: 8%;
+  /*   padding-top: 8%; */
   text-align: center;
 }
 
@@ -370,22 +370,26 @@ h3 span {
 
 .row {
   display: flex;
-  padding-left: 65px;
-  justify-content: space-evenly;
+  /*   padding-left: 65px; */
+  justify-content: center;
+  margin-top: 40px;
 }
 
-#row-margin {
+/* #row-margin {
   margin: 40px;
-}
+} */
 
 .column {
-  width: 25%;
+  width: 33.33%;
   padding: 20px;
   border-radius: 15px;
   background-color: white;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  max-width: 360px;
+  box-sizing: border-box;
+  margin: 0 20px;
 }
 
 .column h2 {
