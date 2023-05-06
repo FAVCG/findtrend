@@ -391,7 +391,7 @@ h3 span {
 } */
 
 .column {
-  width: 33.33%;
+  max-width: 33.33%;
   padding: 20px;
   border-radius: 15px;
   background-color: white;
