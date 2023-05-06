@@ -648,3 +648,10 @@ p span {
 
   }
 }
+
+/*JOIN NOW MQ*/
+@media (max-width: 680px) {
+  .join-content h1 {
+    font-size: 48px;
+  }
+}
