@@ -548,50 +548,84 @@ p span {
 @media (max-width: 1004px) {
   .login-register a {
     margin-right: 38px;
-}
+  }
 }
 
 @media (max-width: 986px) {
   .login-register a {
     margin-right: 32px;
+  }
 }
-}
+
 @media (max-width: 980px) {
   .login-register a {
     margin-right: 28px;
-}
+  }
 }
 
 @media (max-width: 976px) {
   .list-items ul {
     display: none;
-} 
-.login-register a, .login-register button {
-  display: none;
-}
-.burger-button {
-  display: block;
-}
-.burger-button {
-  margin-right: 40px;
-}
-.navbar-logo img {
-  margin-left: 40px;
-}
+  }
+
+  .login-register a,
+  .login-register button {
+    display: none;
+  }
+
+  .burger-button {
+    display: block;
+  }
+
+  .burger-button {
+    margin-right: 40px;
+  }
+
+  .navbar-logo img {
+    margin-left: 40px;
+  }
 }
 
 /*BANNER MQ*/
 @media (max-width: 680px) {
-    .banner-text h1 {
-      font-size: 55px;
-  } 
+  .banner-text h1 {
+    font-size: 55px;
+  }
+
   .banner-text p {
     font-size: 15px;
+  }
+
+  .tabs-header {
+    font-size: 25px;
+  }
 }
-.tabs-header {
-  font-size: 25px;
+
+/*BENEFITS SECT. MQ*/
+@media (max-width: 1004px) {
+  .row-rect ul {
+    display: grid;
+    grid-template-columns: repeat(2, 0fr);
+    margin: 0px;
+  }
+
+  .rectangle-background {
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+
+  .benefits-section {
+    height: unset;
+  }
 }
+
+@media (max-width: 914px) {
+  .benefits-text h1 {
+    font-size: 40px;
+    padding-right: 20px;
+  }
 }
+
 
 /*BEST DEAL MQ*/
 
@@ -599,8 +633,9 @@ p span {
   .row {
     display: block;
     padding: 0px;
-  } 
+  }
 }
+
 @media (max-width: 1004px) {
   .column {
     margin: 20px auto;
@@ -610,8 +645,6 @@ p span {
 @media (max-width: 1004px) {
   ul {
     width: calc(50%-40px);
-    
+
   }
 }
-
-
