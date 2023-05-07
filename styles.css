@@ -208,7 +208,8 @@ body {
   text-align: left;
 }
 
-.benefits-text h1 {
+.text-padding h1,
+.second-text h1 {
   font-size: 45px;
   padding-left: 100px;
   padding-top: 100px;
@@ -586,6 +587,13 @@ p span {
   }
 }
 
+@media (max-width: 680px) {
+  .navbar-logo p {
+    display: none;
+  }
+}
+
+
 /*BANNER MQ*/
 @media (max-width: 680px) {
   .banner-text h1 {
@@ -621,8 +629,41 @@ p span {
 
 @media (max-width: 914px) {
   .benefits-text h1 {
-    font-size: 40px;
+    font-size: 42px;
+    padding-right: 55px;
+    padding-left: 28px;
+  }
+}
+
+@media (max-width: 914px) {
+  .second-text h1 {
+    font-size: 42px;
     padding-right: 20px;
+    text-align: center;
+    padding-left: 20px;
+  }
+}
+
+/*PLATFORM CONNECT MQ*/
+
+@media (max-width: 975px) {
+  .square {
+    margin-top: 10px;
+  }
+
+  .connect-content ul {
+    display: grid;
+    grid-template-columns: repeat(4, 0fr);
+  }
+
+  .row-rect ul {
+    padding-left: 3%;
+  }
+}
+
+@media (max-width: 664px) {
+  .tweets {
+    width: 80%;
   }
 }
 
@@ -648,6 +689,8 @@ p span {
 
   }
 }
+
+
 
 /*JOIN NOW MQ*/
 @media (max-width: 680px) {
@@ -687,6 +730,7 @@ p span {
   .footer-items li {
     padding: 0px;
   }
+
   .footer-items {
     margin-top: 20px;
   }
