@@ -655,3 +655,39 @@ p span {
     font-size: 48px;
   }
 }
+
+/*FOOTER MQ*/
+@media (max-width: 859px) {
+  .footer-content {
+    display: inline-grid;
+  }
+
+  .footer-items ul {
+    display: block;
+    text-align: center;
+    margin: 45px;
+  }
+
+  .footer-content {
+    justify-content: center;
+  }
+
+  .footer-logo {
+    margin-top: 60px;
+  }
+
+  .footer-items a {
+    line-height: 50px;
+  }
+
+  .footer-logo img {
+    margin-left: 60px;
+  }
+
+  .footer-items li {
+    padding: 0px;
+  }
+  .footer-items {
+    margin-top: 20px;
+  }
+}
