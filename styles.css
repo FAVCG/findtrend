@@ -127,6 +127,56 @@ body {
   text-decoration: none;
 }
 
+.rotated-buttons {
+  display: none;
+}
+
+.rotated-buttons .button-twitter,
+.rotated-buttons .button-pinterest,
+.rotated-buttons .button-facebook,
+.rotated-buttons .button-dribble {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 65px;
+  border: none;
+  border-radius: none;
+  background-color: #181818;
+  color: white;
+  padding: 9px 20px;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  margin: 0 auto;
+  width: 293.04px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.50) 0px -12px 30px,
+    rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px,
+    rgba(0, 0, 0, 1.09) 0px -3px 5px;
+}
+
+.button-twitter img,
+.button-pinterest img,
+.button-facebook img,
+.button-dribble img {
+  height: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.first-fader {
+  width: 90px;
+  height: 65px;
+  background: linear-gradient(232deg, #181818 61.65%, rgba(24, 24, 24, 0.6) 100%);
+  /* background: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,1)); */
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /*Tabs Section*/
 
 .tabs-section {
@@ -596,6 +646,10 @@ p span {
 
 /*BANNER MQ*/
 @media (max-width: 680px) {
+  .banner {
+    height: 900px;
+  }
+
   .banner-text h1 {
     font-size: 55px;
   }
@@ -606,6 +660,29 @@ p span {
 
   .tabs-header {
     font-size: 25px;
+  }
+
+  .rotated-buttons {
+    display: block;
+    margin-top: 60px;
+  }
+
+  .button-twitter {
+    transform: rotate(-4deg);
+    z-index: 1;
+  }
+
+  .button-pinterest {
+    transform: rotate(2deg);
+  }
+
+  .button-facebook {
+    transform: rotate(-2deg);
+    z-index: 1;
+  }
+
+  .button-dribble {
+    transform: rotate(4deg);
   }
 }
 
