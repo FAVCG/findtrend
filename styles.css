@@ -244,6 +244,41 @@ body {
   line-height: 1.5;
 }
 
+.top-black-arrow {
+  display: none;
+}
+
+.top-black-arrow img {
+  position: absolute;
+  height: 28px;
+  margin-top: -15px;
+  margin-left: 56px;
+}
+
+.top-black-arrow p {
+  transform: rotate(6deg);
+  margin-left: 235px;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.bottom-black-arrow {
+  display: none;
+}
+
+.bottom-black-arrow img {
+  /* position: absolute; */
+  height: 40px;
+  margin-right: 200px;
+}
+
+.bottom-black-arrow p {
+  transform: rotate(1.13deg);
+  font-size: 14px;
+  margin-right: 240px;
+  margin-top: 0px;
+}
+
 /*FT Benefits Section*/
 
 .benefits-section {
@@ -700,6 +735,17 @@ p span {
 
   .button-dribble {
     transform: rotate(4deg);
+  }
+}
+
+/*TABS SECTION MQ*/
+@media (max-width: 680px) {
+  .top-black-arrow {
+    display: block;
+  }
+
+  .bottom-black-arrow {
+    display: block;
   }
 }
 
