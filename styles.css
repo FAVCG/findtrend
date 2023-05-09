@@ -517,6 +517,23 @@ p span {
   background-color: #A8FF35;
 }
 
+.white-arrow {
+  display: none;
+  margin-left: 60%;
+}
+
+.white-arrow img {
+  height: 42px;
+}
+
+.white-arrow p {
+  color: #FFFFFF;
+  margin-top: 0px;
+  transform: rotate(6deg);
+  margin-top: 8px;
+  font-size: 15px;
+}
+
 /*Join Now Section*/
 
 .join-content {
@@ -764,6 +781,12 @@ p span {
   ul {
     width: calc(50%-40px);
 
+  }
+}
+
+@media (max-width: 680px) {
+  .white-arrow {
+    display: block;
   }
 }
 
