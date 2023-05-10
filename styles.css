@@ -144,7 +144,7 @@ body {
   background-color: #181818;
   color: white;
   padding: 9px 20px;
-  font-size: 20px;
+  font-size: 19px;
   font-family: 'Roboto', sans-serif;
   margin: 0 auto;
   width: 293.04px;
@@ -264,12 +264,27 @@ body {
 
 .bottom-black-arrow {
   display: none;
+  position: absolute;
+  margin-bottom: -180px;
+  margin-left: -200px;
 }
 
 .bottom-black-arrow img {
-  /* position: absolute; */
+  height: 40px;
+}
+
+.bottom-black-arrow p {
+  transform: rotate(1.13deg);
+  font-size: 14px;
+  margin-top: 0px;
+  margin-left: -38px;
+}
+
+/* .bottom-black-arrow img {
+  position: relative;
   height: 40px;
   margin-right: 200px;
+  margin-top: -25px;
 }
 
 .bottom-black-arrow p {
@@ -277,7 +292,7 @@ body {
   font-size: 14px;
   margin-right: 240px;
   margin-top: 0px;
-}
+} */
 
 /*FT Benefits Section*/
 
@@ -738,6 +753,12 @@ p span {
   }
 }
 
+@media (max-width: 500px) {
+  .banner-text h1 {
+    font-size: 50px;
+  }
+}
+
 /*TABS SECTION MQ*/
 @media (max-width: 680px) {
   .top-black-arrow {
@@ -746,6 +767,26 @@ p span {
 
   .bottom-black-arrow {
     display: block;
+  }
+
+  .rectangle {
+    height: 130px;
+    width: 330px;
+  }
+
+  .tabs-p {
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 606px) {
+  .tabs-p br {
+    display: none;
+  }
+
+  .tabs-p p {
+    margin-left: 40px;
+    margin-right: 40px;
   }
 }
 
@@ -781,6 +822,13 @@ p span {
     padding-right: 20px;
     text-align: center;
     padding-left: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .second-text h1 {
+    padding-left: 65px;
+    padding-right: 45px;
   }
 }
 
@@ -871,6 +919,11 @@ p span {
 
   .footer-logo img {
     margin-left: 60px;
+    height: 48px;
+  }
+
+  .footer-logo p {
+    font-size: 25px;
   }
 
   .footer-items li {
